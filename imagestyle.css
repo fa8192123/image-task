@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    margin: 40px 2vw;
+    margin: 40px 2cm;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     
 }
@@ -24,13 +24,14 @@ body{
     margin: 15px;
 }
 .mobile{
-    flex: 1;
-    width: 400px;
+    width: 450px;
+    position: relative;
+    right: 50px;
 }
 .box{
     display: flex;
     gap: 10px;
-     justify-content: center;
+    justify-content: center;
     align-items: center;
 }
 .content{
@@ -38,10 +39,11 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    flex: 1;
+    width: 450px;
     text-align: center;
     font-size: 25px;
     gap: 20px;
+    margin-left: 50px;
 }
 .end{
     display: flex;
@@ -53,4 +55,26 @@ body{
 .link{
     margin: 0;
     color: rgb(110, 110, 234);
+}
+.box1{
+     display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: start;
+}
+.content1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+    text-align: center;
+    font-size: 30px;
+    gap: 40px;
+    position: relative;
+    top: 100px;
+}
+.content1 img{
+    position: relative;
+    right: 120px;
 }
